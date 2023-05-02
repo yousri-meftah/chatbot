@@ -1,0 +1,266 @@
+{"intents":[
+    {   "name" : "greetings", 
+        "patterns" : ["Hello", "Hi there", "Hey", "What's up ?"],
+        "responses" : ["Hello! I'm here to help you determine what might be causing your dog's symptoms. Can you describe the symptoms you've noticed?",
+            "Greetings! As a knowledgeable chatbot, I can help you figure out what's going on with your dog. Can you tell me about the symptoms your furry friend is experiencing?",   "Hi there! I'm here to assist you in identifying your dog's illness. Could you please tell me what symptoms your dog is displaying?",
+            "Hey! I'm your helpful chatbot, and I'm here to assist you with your dog's health. Can you describe the symptoms that your dog has been experiencing?",
+            "Welcome! As a knowledgeable chatbot, I can assist you in determining the cause of your dog's symptoms. Can you please tell me about the symptoms your dog is showing?",
+            "Hello! How can I help you and your dog today?"]
+    },
+    {
+      "name": "Unknown",
+      "patterns": ["I don't know", "Not sure", "Can you tell me?"],
+      "responses": ["I'm sorry, I don't have enough information to make a diagnosis. Please tell me more about your dog's symptoms."]
+    },
+    {
+      "name": "Diagnosis",
+      "patterns": ["give me a diagnosis", "what disease does my dog have ?", "What disease does my dog have ?"],
+      "responses": ["Your dog has :"]
+    },
+    {
+      "name": "Goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye! Take care of your dog."]
+    },
+    {
+        "name": "Coughing",
+        "patterns": ["My dog has a cough", "My dog's throat is sore", "My dog can't stop coughing"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Vomiting",
+        "patterns": ["My dog is throwing up", "My dog feels nauseous", "My dog has been sick to their stomach"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Diarrhea",
+        "patterns": ["My dog has diarrhea", "My dog's stomach is upset", "My dog has loose stools"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Fever",
+        "patterns": ["My dog has a fever", "My dog feels hot", "My dog's body temperature is high"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Lethargy",
+        "patterns": ["My dog feels tired all the time", "My dog has no energy", "My dog is feeling run down"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Loss of appetite",
+        "patterns": ["My dog doesn't feel like eating", "My dog has no appetite", "My dog feels full all the time"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Bloody Diarrhea",
+        "patterns": ["My dog has bloody diarrhea", "My dog has been passing bloody stools"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Sneezing",
+        "patterns": ["My dog is sneezing", "My dog has been having sneezing fits", "My dog has a runny nose"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+        },
+        {
+      "name": "Discharge from eye",
+      "patterns": ["My dog has discharge from its eye", "My dog's eye is watery", "My dog's eye is red and swollen"],
+      "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+    },
+    {
+      "name": "Discharge from nose",
+      "patterns": ["My dog has discharge from its nose", "My dog's nose is running", "My dog's nose is congested"],
+      "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+    },
+    {
+      "name": "Seizures",
+      "patterns": ["My dog is having seizures", "My dog's body is shaking uncontrollably", "My dog is twitching"],
+      "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+    },
+    {
+      "name": "Paralysis",
+      "patterns": ["My dog is unable to move its legs", "My dog can't stand or walk", "My dog is dragging its hind legs"],
+      "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+    },
+    {
+        "name": "Discharge from eye",
+        "patterns": ["My dog has discharge from its eye", "My dog's eye is watery", "My dog's eye is red and swollen"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Discharge from nose",
+        "patterns": ["My dog has discharge from its nose", "My dog's nose is running", "My dog's nose is congested"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Seizures",
+        "patterns": ["My dog is having seizures", "My dog's body is shaking uncontrollably", "My dog is twitching"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Paralysis",
+        "patterns": ["My dog is unable to move its legs", "My dog can't stand or walk", "My dog is dragging its hind legs"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Twitching",
+        "patterns": ["My dog's muscles are twitching", "My dog's face is twitching", "My dog is twitching uncontrollably"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Dehydration",
+        "patterns": ["My dog is dehydrated", "My dog is not drinking water", "My dog's gums are dry"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Depression",
+        "patterns": ["My dog seems sad and lethargic", "My dog is not interested in playing or eating", "My dog is sleeping more than usual"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Dry Hacking cough",
+        "patterns": ["My dog has a dry, hacking cough", "My dog is coughing a lot but nothing comes up", "My dog's cough sounds like honking"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Retching",
+        "patterns": ["My dog is gagging and trying to vomit", "My dog is retching but not bringing anything up", "My dog's stomach seems to be making a lot of noise"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Nasal Discharge",
+        "patterns": ["My dog has discharge from its nose", "My dog's nose is runny", "My dog is sneezing a lot"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Increased thirst and urination",
+        "patterns": ["My dog is drinking more water than usual", "My dog needs to go outside to urinate more frequently", "My dog's urine output seems to have increased"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Abdominal Pain",
+        "patterns": ["My dog seems to be in pain around its belly", "My dog is whimpering and seems uncomfortable", "My dog is licking its belly more than usual"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Muscle Pain",
+        "patterns": ["My dog is limping and seems to be in pain", "My dog is reluctant to move or play", "My dog yelps when I touch a certain area"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Jaundice",
+        "patterns": ["My dog's eyes and skin seem to be turning yellow", "My dog's gums and tongue are pale or yellowish", "My dog is not eating and seems weak"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Difficulty Breathing",
+        "patterns": ["My dog is panting heavily and seems to be struggling to breathe", "My dog is wheezing or making strange noises while breathing", "My dog's breathing seems shallow or labored"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Joint Pain",
+        "patterns": ["My dog seems to be in pain or discomfort in its joints", "My dog is having difficulty standing or walking", "My dog's joints seem swollen or stiff"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Lameness",
+        "patterns": ["My dog is limping and seems to be favoring a certain leg", "My dog is reluctant to move or play", "My dog yelps when I touch a certain area"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Sensitivity to Touch",
+        "patterns": ["My dog seems to be in pain when I touch it", "My dog is whimpering when I touch a certain area", "My dog is reluctant to be touched or petted"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Weight Loss",
+        "patterns": ["My dog has been losing weight despite eating normally", "My dog's ribs and spine are becoming more prominent", "My dog seems to have less energy and enthusiasm"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Fainting",
+        "patterns": ["My dog suddenly collapsed or lost consciousness", "My dog seems disoriented or confused", "My dog is having difficulty standing or walking"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Exercise Intolerance",
+        "patterns": ["My dog seems to be getting tired more easily than usual", "My dog is panting heavily after minimal exercise", "My dog is reluctant to play or go for walks"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Flatulence",
+        "patterns": ["My dog has been passing gas more than usual", "My dog's gas smells worse than usual", "My dog seems uncomfortable or in pain when passing gas"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Behavioral Changes",
+        "patterns": ["My dog seems more irritable or aggressive than usual", "My dog is more anxious or restless than usual", "My dog is hiding or avoiding people or activities"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Excessive Drooling",
+        "patterns": ["My dog is drooling excessively", "My dog's mouth seems to be producing more saliva than usual", "My dog seems to be having difficulty swallowing"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Coma",
+        "patterns": ["My dog is unresponsive or unconscious", "My dog seems to be in a deep sleep and won't wake up", "My dog is not responding to stimuli"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Difficulty Swallowing",
+        "patterns": ["My dog seems to be having difficulty swallowing", "My dog is coughing or choking when trying to eat or drink", "My dog is drooling more than usual"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Restlessness",
+        "patterns": ["My dog seems agitated or restless", "My dog is pacing or cannot seem to get comfortable", "My dog is having difficulty settling down"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Muscle Tremors",
+        "patterns": ["My dog is shaking or trembling involuntarily", "My dog's muscles seem to be twitching or jerking", "My dog seems to be having difficulty standing or walking"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Unusual Vocalizations",
+        "patterns": ["My dog is making unusual or excessive noises", "My dog is whining, howling or growling more than usual", "My dog is yelping in pain"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Snapping",
+        "patterns": ["My dog is snapping at people or objects", "My dog seems aggressive or agitated", "My dog is biting or nipping without provocation"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Weight Gain",
+        "patterns": ["My dog has gained weight recently", "My dog seems to be putting on weight despite no changes in diet or exercise", "My dog is getting rounder"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Difficulty Exercising",
+        "patterns": ["My dog is having trouble exercising or playing", "My dog is tired or out of breath more easily than usual", "My dog is unable to walk or run as far as they used to"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Swelling",
+        "patterns": ["My dog has swelling in a certain area of their body", "My dog seems bloated or puffy", "My dog's face or limbs are swollen"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Skin Problems",
+        "patterns": ["My dog has a rash, bump, or sore on their skin", "My dog is itching, licking or scratching excessively", "My dog's skin seems dry or flaky"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Excessive Hunger",
+        "patterns": ["My dog seems to be hungrier than usual", "My dog is constantly begging for food or treats", "My dog is eating more than usual"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      },
+      {
+        "name": "Panting",
+        "patterns": ["My dog is panting excessively or for no apparent reason", "My dog seems to be breathing heavily or rapidly", "Why is my dog panting so much?"],
+        "responses": ["I'm sorry to hear that. Can you tell me if your dog has any other symptoms?"]
+      }
+
+]}

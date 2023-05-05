@@ -36,6 +36,7 @@ def predict(symptoms):
     dis_msg = f"The disease of your dog's symptoms is more likely {dis_pred}."
 
     print(dis_msg)
+    
     # Make a prediction for the severity of the symptoms
     sev_pred = sev_tree.predict([symptoms])[0]
     '''if sev_pred == severity.lower():
@@ -46,3 +47,4 @@ def predict(symptoms):
 
     # return sev_msg
     print(sev_msg)
+    return dis_msg+" "+sev_msg

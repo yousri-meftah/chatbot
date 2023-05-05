@@ -1,11 +1,11 @@
 async function getBotResponse(input) {
     //rock paper scissors
     //data={"msg":input}
-    console.log(input["msg"])
+    //console.log(input["msg"])
     
 
-    console.log(input)
-    let res=await fetch($SCRIPT_ROOT+"/chatbot",{
+    //console.log(input)
+    let res=await fetch("http://127.0.0.1:8000/chatbot",{
         method: 'POST',
         body: JSON.stringify(input),
         mode: 'cors',
@@ -13,7 +13,8 @@ async function getBotResponse(input) {
         'Content-Type': 'application/json'
         },
     })
-    let final =await res.json()
+    let final =await res.json();
+    console.log(final)
     return final['resultat'];
 
     // Simple responses

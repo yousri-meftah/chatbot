@@ -42,8 +42,8 @@
                             </div>
 
                             <div class="chat-bar-icons">
-                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
-                                    onclick="heartButton()"></i>
+                                <!-- <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                    onclick="heartButton()"></i> -->
                                 <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
                                     onclick="sendButton()"></i>
                             </div>
@@ -67,6 +67,6 @@
 <script src="{{ url_for('static',filename='styles/scripts/responses.js') }}"></script>
 <script src="{{ url_for('static',filename='styles/scripts/chat.js') }}"></script>
 <script src="static/scripts/chat.js"></script>
-<script>$SCRIPT_ROOT =  {{ request.script_root|tojson|safe }} </script>
+<script>  var $SCRIPT_ROOT = '{{ request.script_root|tojson|safe }}' </script>
 
 </html>

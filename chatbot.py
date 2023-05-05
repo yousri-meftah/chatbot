@@ -36,7 +36,7 @@ def chatbot_response():
                 print("ssssssss")
                 print(symptoms)
 
-                print(predict(symptoms))
+                print(type(str(predict(symptoms))))
                 isRunning = False
             else:
                 print(res)
@@ -46,7 +46,9 @@ def yousri(msg):
     (res, is_diagnosis) = getResponse(ints, intents)
     if(is_diagnosis):
         print("======================bb======================")
-        return predict(symptoms)
+        ch=str(predict(symptoms))
+        print("aaaaa  "+ch)
+        return ({"resultat":ch})
     else:
         return ({"resultat":res})
 # chat functionalities
@@ -74,7 +76,7 @@ def bow(sentence, words, show_details=True):
 
 def predict_class(sentence, model):
     # filter out predictions below a threshold
-    print(type(sentence))
+    # print(type(sentence))
     p = bow(sentence, words, show_details=False)
     res = model.predict(np.array([p]))[0]
     ERROR_THRESHOLD = 0.25
@@ -103,4 +105,4 @@ def getResponse(ints, intents_json):
             break
     return (result, (name == "Diagnosis"))
 
-chatbot_response()
+# chatbot_response()

@@ -1,3 +1,7 @@
+:root{
+    --c1:#8d6531;
+    --c2:#d8bf99;
+}
 .chat-bar-collapsible {
     position: fixed;
     bottom: 0;
@@ -6,7 +10,7 @@
 }
 
 .collapsible {
-    background-color: rgb(82, 151, 255);
+    background-color: var(--c1) ;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -23,12 +27,12 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
+    background-color: var(--c2);
 }
 
 .full-chat-block {
     width: 350px;
-    background: white;
+    background: var(--c2);
     text-align: center;
     overflow: auto;
     scrollbar-width: none;
@@ -112,7 +116,7 @@
 .userText span {
     line-height: 1.5em;
     display: inline-block;
-    background: #5ca6fa;
+    background: var(--c1);
     padding: 10px;
     border-radius: 8px;
     border-bottom-right-radius: 2px;
